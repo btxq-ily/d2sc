@@ -14,11 +14,9 @@ Generative zero-shot learning remains challenging in practice. When conditioning
 
 ## Data preparation
 
-We trained the model on three popular ZSL benchmarks: [CUB](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html), [SUN](http://cs.brown.edu/~gmpatter/sunattributes.html) and [AWA2](http://cvml.ist.ac.at/AwA2/) following the data split of [xlsa17](http://datasets.d2.mpi-inf.mpg.de/xian/xlsa17.zip).
+model are trained on three popular ZSL benchmarks: [CUB](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html), [SUN](http://cs.brown.edu/~gmpatter/sunattributes.html) and [AWA2](http://cvml.ist.ac.at/AwA2/) following the data split of [xlsa17](http://datasets.d2.mpi-inf.mpg.de/xian/xlsa17.zip).
 
-Our fine-tuned features can be downloaded from https://drive.google.com/drive/folders/1MW_GPqN7g9idJrtYg8eLszqFMXj-YKrq?usp=drive_link.
-
-The data percent splitting can be downloaded from https://drive.google.com/drive/folders/1erHqyL42wJ1b7oWKkrPTyb2EoCxkFVqb?usp=drive_link. 
+The fine-tuned features and the data percent splitting can be downloaded from https://github.com/FouriYe/ZeroDiff_ICLR25
 
 ### Download Dataset 
 
@@ -67,4 +65,4 @@ Parts of our codes based on:
 * [akshitac8/tfvaegan](https://github.com/akshitac8/tfvaegan)
 * [ZhishengXiao/DenoisingDiffusionGAN](https://github.com/NVlabs/denoising-diffusion-gan)
 * [Jiequan/PACO](https://github.com/dvlab-research/Parametric-Contrastive-Learning)
-* [ZERODIFF](https://github.com/FouriYe/ZeroDiff_ICLR25/tree/main/datasets)
+* [FouriYe/ZERODIFF](https://github.com/FouriYe/ZeroDiff_ICLR25/tree/main/datasets)
